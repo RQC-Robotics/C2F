@@ -1,0 +1,9 @@
+numpy
+gym
+
+[all]
+gym
+numpy
+ur_rtde
+pyrealsense2
+ruamel.YAML
