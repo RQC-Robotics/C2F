@@ -5,7 +5,7 @@ rlbench:
     episode_length: 10
     cameras: [front]
     camera_resolution: [120, 128]
-    scene_bounds: [-0.60, -0.4, -0.002, -0.25, 0.4, 0.3]
+    scene_bounds: [-0.60, -0.3, -0.002, -0.25, 0.3, 0.3]
 
 replay:
     batch_size: 128
@@ -26,7 +26,7 @@ framework:
     training_iterations: 40000
     gpu: 0
     env_gpu: 0
-    logdir: '/home/albert/C2FARM39/logs/sort_rose_red_one_fig_demo/'
+    logdir: '/home/albert/C2FARM39/logs/rubbish/'
     seeds: 1
 
 defaults:

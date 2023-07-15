@@ -39,9 +39,10 @@ def _save_clips(clips, name):
 def visualise(logdir, task, method, cfg):
     #config_path = os.path.join(logdir, task, method, '.hydra')
     config_path = '/home/albert/C2FARM39/ARM/conf'
-    #config_path = '/home/albert/C2FARM39/GoodResult/'
+    
     #weights_path = os.path.join(logdir, task, method, 'seed0', 'weights')
-    weights_path = '/home/albert/C2FARM39/logs/new/take_lid_off_saucepan/C2FARM/seed20/weights'
+    #weights_path = '/home/albert/C2FARM39/logs/rubbish/take_lid_off_saucepan/C2FARM/seed0/weights'
+    weights_path = '/home/albert/C2FARM39/SavedWeights/put_in_box_santa_succes/weights'
     if not os.path.exists(config_path):
         raise ValueError('No cofig in: ' + config_path)
     if not os.path.exists(weights_path):
